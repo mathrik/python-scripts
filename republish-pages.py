@@ -9,7 +9,7 @@ from dateutil.parser import parse
 pub1 = "http://localhost:4503"
 extension = "/_jcr_content.2.json"
 activateUrl = "http://localhost:4502/bin/replicate.json"
-passWd = "admin$1st3r"
+passWd = "admin"
 
 paths = []
 with open("list-of-paths.csv") as nodes_csv_file:
